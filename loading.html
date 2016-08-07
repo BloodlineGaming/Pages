@@ -1,0 +1,17 @@
+<html>
+<head>
+  
+</head>
+<body style="background-color:#000000;">
+    <img id="im" src="http://i.imgur.com/aH7tuLh.png"/>
+    <script>
+    var height = window.innerHeight*0.9849;
+    var mult = 1.2478778;
+    var width = height*mult;
+    var pad = window.innerWidth - width;
+    pad = pad / 2;
+    var i = document.getElementById("im");
+    i.setAttribute("style","width:"+width.toString()+"px;"+"margin-left:"+pad.toString()+"px;"+"height:"+height.toString()+"px;margin-top:0px;margin-bottom:0px;");
+  </script>
+</body>
+</html>
